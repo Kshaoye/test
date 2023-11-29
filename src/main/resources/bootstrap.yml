@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springcloud-config-server
+  profiles:
+    active: remote
+eureka: 
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:1111/eureka/, http://127.0.0.1:2222/eureka/
